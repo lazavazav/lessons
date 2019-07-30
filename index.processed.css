@@ -100,6 +100,15 @@ form {
   padding: 3em;
 }
 
+.success {
+  background-color: rgb(54, 54, 54);
+  font-size: 30px;
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+  color: rgb(97, 194, 173);
+}
+
 @media only screen and (min-width: 768px) {
   .header {
     height: 30%;
@@ -142,5 +151,13 @@ form {
     width: 75%;
     background-color: #e2dfd3;
     padding: 3em;
+  }
+  .success {
+    background-color: rgb(190, 186, 186);
+    font-size: 40px;
+    text-align: center;
+    margin: 20px;
+    color: rgb(111, 73, 122);
+    padding: 10px;
   }
 }
