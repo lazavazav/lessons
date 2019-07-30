@@ -65,7 +65,10 @@
       </div>
 
           <div class="contact">
-   <form name="contact" method="POST" data-netlify="true" action="/success.html">
+   <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true" action="/success.html">
+    <p class="hidden">
+        <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+      </p>
        <h3>Contact Me</h3>
        <div class="form-group">
     <label for="name">Your Name</label>
@@ -80,6 +83,7 @@
     <label for="message">Message</label>
     <input type="text-area" class="form-control" id="formMessage" placeholder="How can I help?" name="message">
   </div>
+  <div data-netlify-recaptcha="true"></div>
       <button type="submit" class="btn btn-primary">Submit</button>
 </form>      
           </div>

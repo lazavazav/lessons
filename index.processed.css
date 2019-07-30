@@ -109,6 +109,10 @@ form {
   color: rgb(97, 194, 173);
 }
 
+.hidden {
+  display: none;
+}
+
 @media only screen and (min-width: 768px) {
   .header {
     height: 30%;
@@ -159,5 +163,9 @@ form {
     margin: 20px;
     color: rgb(111, 73, 122);
     padding: 10px;
+  }
+
+  .hidden {
+    display: none;
   }
 }
